@@ -7,7 +7,7 @@ pipeline{
       stage("build"){
         steps{
           echo "first jenkins pipeline"
-          echo "The version used is ${VERSION}"
+          echo "The version used is ${params.VERSION}"
         }
       }
     }
